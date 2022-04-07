@@ -1,3 +1,5 @@
+import { v4 as uuid } from 'uuid';
+
 class Todo {
   // to define the expected types
   id: string;
@@ -6,7 +8,8 @@ class Todo {
   // to initialize values
   constructor(text: string) {
     this.text = text;
-    this.id = new Date().toISOString();
+    this.id = uuid();
+    // this.id = new Date().toISOString();
   }
 }
 
