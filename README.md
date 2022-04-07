@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# TodoList with React and TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Demo site is here: [TodoList Web App](https://user-auth-flow.web.app/)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [About](#about)
+- [Build Setup](#build_setup)
+- [Built Using](#built_using)
+- [TODO](#todo)
+- [Acknowledgements](#achknowledgement)
 
-### `npm start`
+## About <a name= "about"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This demo project aims to practice on using TypeScript with **_React_** to provide more type-safe syntax.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Build Setup <a name="build_setup"></a>
 
-### `npm test`
+```
+  # install dependencies
+  $ npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  # serve with hot reload at localhost:3000
+  $ npm start
 
-### `npm run build`
+  # build for production and launch server
+  $ npm run build
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Built Using <a name="built_using"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Client-Side
 
-### `npm run eject`
+- [ReactJs](https://reactjs.org/) - Web FrameWork
+- [TypeScript](https://www.typescriptlang.org/) - Strongly typed programming language that build on JavaScript
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## TODO <a name="todo"></a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [ ] Add a server-side with Firebase.
+- [ ] Add User Validation for the client-side.
+- [ ] Add Routing.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Acknowledgements <a name="acknowledgement"></a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This demo was implemented as a part of [**React - The Compolete Guide**](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) by **Maximilian Schwarzmüller**.
