@@ -9,9 +9,8 @@ const TodoItem: React.FC<{ item: Todo; onRemoveTodo: () => void }> = (
   const { item } = props;
 
   return (
-    <li className={classes.item} onClick={props.onRemoveTodo}>
-      {' '}
-      {item.text}{' '}
+    <li className={classes.item} onDoubleClick={props.onRemoveTodo}>
+      {item.text}
     </li>
   );
 };
